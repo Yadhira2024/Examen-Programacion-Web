@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Teléfonos Móviles</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .logos, .telefonos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .logos img, .telefonos img {
+            width: 170px;
+            margin: 20px;
+        }
+        .enlaces {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .enlaces a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sección Principal -->
+    <h1><em>Bienvenido a la Tienda de Teléfonos Móviles</em></h1>
+    <p style="text-align: center;"><em>Aquí encontrarás los mejores teléfonos móviles de Android, Apple y más</em></p>
+
+    <div class="logos">
+        <a href="#android"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkD2TROKcvLLnAh279xpe2PFqrcmvuN7KJCg&s" alt="Teléfonos Android"></a>
+        <a href="#apple"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzW5hIfTNa-9IZPB81Dnlrysm_IFRYIi-d6T2noaTF3bPNf276Y3LUAkzeHx0QZtNNYR0&usqp=CAU" alt="Teléfonos Apple"></a>
+    </div>
+
+    <div class="enlaces">
+        <a href="#accesorios">Accesorios</a>
+        <a href="https://consumer.huawei.com" target="_blank">Huawei</a>
+        <a href="https://www.samsung.com" target="_blank">Samsung</a>
+        <a href="#tabla">Tabla de Modelos Recientes</a>
+    </div>
+
+    <!-- Sección Android -->
+    <h2 id="android"><em>Teléfonos Android</em></h2>
+    <div class="telefonos">
+        <img src="https://e.rpp-noticias.io/xlarge/2020/06/10/410741_954816.png" alt="Teléfono Android 11">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJ9kJMBoJ--midUbHDpeRHIYN7EHjpSKdwQ&s" alt="Teléfono Android 12">
+        <img src="https://i.blogs.es/b24374/android-13/1366_2000.jpg" alt="Teléfono Android 13">
+        <img src="https://static.srpcdigital.com/styles/1037xauto/public/2023-10/362350.jpeg" alt="Teléfono Android 14">
+    </div>
+    <div class="enlaces">
+        <a href="https://www.android.com/intl/es-419_mx/phones-tablets/">Ver teléfonos Android</a>
+    </div>
+
+    <!-- Sección Apple -->
+    <h2 id="apple"><em>Teléfonos Apple</em></h2>
+    <div class="telefonos">
+        <img src="data:image/jpeg;base64,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" alt="Teléfono Apple 13">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQobjBl0Dut6OfJrYP2Oxo0zKAIQ6cuT8SfQ&s" alt="Teléfono Apple 14">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQC3KShA9TjDylESSox8ZSYJX-ILGAo3Qdpg&s" alt="Teléfono Apple 15">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfkyXD_L79sIVEQd16OGkrg35AGOQZk6CJyg&s" alt="Teléfono Apple 16">
+    </div>
+    <div class="enlaces">
+        <a href="https://www.apple.com/mx/iphone/">Ver teléfonos Apple</a>
+    </div>
+
+    <!-- Sección Accesorios -->
+    <h2 id="accesorios"><em>Accesorios para Teléfonos Móviles</em></h2>
+    <div class="enlaces">
+        <a href="https://listado.mercadolibre.com.mx/celulares-telefonia/accesorios-celulares/">Encuentra los mejores accesorios aqui </a>
+    </div>
+
+
+    <!-- Sección Tabla de Modelos Recientes -->
+    <h2 id="tabla"><em>Modelos más recientes de iPhone, Samsung, Motorola y Xiaomi</em></h2>
+    <table>
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Enlace</th>
+        </tr>
+        <tr>
+            <td>iPhone</td>
+            <td>iPhone 15 Pro</td>
+            <td><a href="https://www.apple.com/iphone/">Ver más</a></td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Galaxy S23</td>
+            <td><a href="https://www.samsung.com">Ver más</a></td>
+        </tr>
+        <tr>
+            <td>Motorola</td>
+            <td>Motorola Edge 40</td>
+            <td><a href="https://www.motorola.com">Ver más</a></td>
+        </tr>
+        <tr>
+            <td>Xiaomi</td>
+            <td>Xiaomi 13</td>
+            <td><a href="https://www.mi.com">Ver más</a></td>
+        </tr>
+    </table>
+
+    <div class="enlaces">
+        <a href="https://www.android.com/intl/es-419_mx/phones-tablets">Volver a Teléfonos Android</a>
+        <a href="https://www.apple.com/mx/iphone/">Volver a Teléfonos Apple</a>
+    </div>
+
+</body>
+</html>
